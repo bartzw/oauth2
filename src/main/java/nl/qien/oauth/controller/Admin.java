@@ -1,4 +1,4 @@
-package nl.qien.uren.controller;
+package nl.qien.oauth.controller;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package nl.qien.uren.entity;
+package nl.qien.oauth.entity;
 
 import javax.persistence.*;
 

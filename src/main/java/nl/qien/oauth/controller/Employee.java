@@ -1,4 +1,4 @@
-package nl.qien.uren.controller;
+package nl.qien.oauth.controller;
 
 public class Employee {
 

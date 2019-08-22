@@ -1,13 +1,13 @@
-package nl.qien.uren;
+package nl.qien.oauth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UrenApplication {
+public class OauthApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UrenApplication.class, args);
+        SpringApplication.run(OauthApplication.class, args);
     }
 
 }

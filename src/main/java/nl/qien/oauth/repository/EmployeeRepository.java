@@ -1,6 +1,6 @@
-package nl.qien.uren.repository;
+package nl.qien.oauth.repository;
 
-import nl.qien.uren.controller.Employee;
+import nl.qien.oauth.controller.Employee;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -19,7 +19,7 @@ function ajax_get(url, callback) {
 function getPassword() {
     var a = document.forms["loginform"]["email"].value;
     var b = document.forms["loginform"]["password"].value;
-    ajax_get("/uren/api/v1/checkPassword/" + a + "/" + b , function(data) {
+    ajax_get("/oauth/api/v1/checkPassword/" + a + "/" + b , function(data) {
         if(data === false) {
             document.getElementById("login").innerHTML = "<font color='red'>Password and/or Email incorrect</font>";
         }
@@ -41,7 +41,7 @@ function showAddUserForm() {
 function addUser() {
     var a = document.forms["createuserform"]["email"].value;
     var b = document.forms["createuserform"]["password"].value;
-    ajax_get("/uren/api/v1/register/" + a + "/" + b , function(data) {
+    ajax_get("/oauth/api/v1/register/" + a + "/" + b , function(data) {
         if(data === false) {
             document.getElementById("test").innerHTML = "<font color='red'>Error adding user.</font>";
         }
@@ -55,7 +55,7 @@ function addUser() {
 }
 
 function getUsers() {
-    ajax_get('/uren/api/v1/users', function(data) {
+    ajax_get('/oauth/api/v1/users', function(data) {
         var tableContent = "<tr><th>Email</th><th>Password</th></tr>";
         for(i=0;i<data.length; i++){
             tableContent = tableContent + "<tr><td>"+ data[i]['emailAdress'] + "</td><td>"+ data[i]['password'] + "</td></tr>";

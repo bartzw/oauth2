@@ -1,6 +1,6 @@
-package nl.qien.uren.controller;
+package nl.qien.oauth.controller;
 
-import nl.qien.uren.repository.EmployeeRepository;
+import nl.qien.oauth.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;
