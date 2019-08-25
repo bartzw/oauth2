@@ -49,6 +49,7 @@ public class OauthApplication extends WebSecurityConfigurerAdapter {
 		http
 				.antMatcher("/**")
 				.authorizeRequests()
+				//.authorizeRequests().antMatchers("/").permitAll().and().authorizeRequests().antMatchers("/h2**").permitAll()
 				.antMatchers("/", "/login**", "/webjars/**", "/error**")
 				.permitAll()
 				.anyRequest()
