@@ -18,6 +18,10 @@
           <option name="url" value="https://github.com/bartzw/SimpleCRUDapp.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/bartzw/testjUnit.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Bart\IdeaProjects" />
